@@ -1,0 +1,90 @@
+/* Style profile for LFR form */
+/* Last edit 05 December 2023*/
+
+
+/* Import the Liebherr Title Font familly */
+@font-face {
+    font-family: 'Liebherr';
+    src: url('https://www.liebherr.i/emt/lfr/test/lfrkua2/K2stylesheet/LiebherrText-Bold_Web.ttf') format('truetype');
+    /* You can add additional font formats for better browser compatibility */
+}
+
+
+
+/*Edit font for Page Title */ 
+
+.theme-entry h1.page-title{
+    font-family: 'Liebherr'!important;
+    color: #000!important;
+    letter-spacing: 1px;
+}
+
+.theme-entry h2.page-subtitle{
+    color: #000!important;
+    letter-spacing: 1px;
+}
+
+.theme-entry input-label{
+
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: 600;
+}
+
+/* Basic TextBox */
+.theme-entry .SFC .SourceCode-Forms-Controls-Web-TextBox {
+    border: 0;
+    border-bottom: 2px solid #adadad!important;
+    transition: border-color 0.3s!important; 
+}
+
+/* Basic TextBox on Hover */
+.theme-entry .SFC .SourceCode-Forms-Controls-Web-TextBox:hover {
+    border-bottom: 2px solid rgba(255, 204, 0, 1)!important;
+}
+
+/* disable TextBox Wrapper border*/
+
+.theme-entry .textbox-style-wrapper{
+    border: none!important;
+}
+
+/* Basic TextBox on Focus */
+.theme-entry .SFC .SourceCode-Forms-Controls-Web-TextBox:focus {
+    border-bottom: 2px solid rgba(255, 204, 0, 1)!important;
+}
+
+/* Change color of the disabled textbox */
+.theme-entry .sfc-SFCTextBox-disabled {
+    background-color: rgba(241, 241, 241, 1);
+}
+
+/* Desactive basic border */
+.theme-entry .input-control-m-c {
+    border: none !important;
+}
+
+/* Set the new border */
+.theme-entry .input-control-m-c {
+    border-bottom: 2px solid #adadad !important;
+    transition: border-color 0.3s;
+}
+
+/* Set the effect on focus for the new border */
+.theme-entry .input-control-m-c:focus,
+.theme-entry .input-control-m-c:active,
+.theme-entry .input-control-m-c:hover
+ {
+    border-color: rgba(255, 204, 0, 1) !important;
+}
+
+/* Change background color of textarea when disabled */
+.theme-entry .input-control textarea[disabled=disabled] {
+    background-color: rgba(241, 241, 241, 1) !important;
+}
+
+/* Edit border for the action button */
+.theme-entry .input-control.select-box .input-control-buttons {
+    border-width: 0 !important;
+    margin-left: 15px;
+}
