@@ -23,7 +23,12 @@
     color: #000!important;
     letter-spacing: 1px;
 }
+.theme-entry p{
 
+    font-size: 10px!important;
+    font-family: Verdana!important;
+    font-weight: 600!important;
+}
 .theme-entry input-label{
 
     font-size: 10px;
