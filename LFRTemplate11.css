@@ -11,11 +11,14 @@
 
 /*Edit the View border style*/
 
-.View{
-    box-shadow : 10px 5px 5px #d9d9d9;
-    border-radius : 5px;
+.theme-entry View{
+    box-shadow : 10px 5px 5px #d9d9d9!important;
+    border-radius : 5px!important;
 }
-
+.View{
+    box-shadow : 10px 5px 5px #d9d9d9!important;
+    border-radius : 5px!important;
+}
 
 
 /*Edit font for Page Title */ 
