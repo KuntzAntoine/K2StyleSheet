@@ -106,3 +106,9 @@
     border-width: 0 !important;
     margin-left: 15px;
 }
+
+/* Text style for View title in the forms*/
+.theme-entry .grid-header-wrapper .grid-header-text>span {
+    font-size: 18px;
+    font-weight: bold;
+}
