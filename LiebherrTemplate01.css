@@ -20,3 +20,8 @@
 .theme-entry span.SourceCode-Forms-Controls-Web-Label{
   font-size: 14px;
 }
+
+/*Radio button label  */
+.theme-entry .stack-container .stack div.multi-select-box-list-item label.input-control .input-control-text {
+    font-size: 14px;
+}
