@@ -15,15 +15,10 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius : 10px!important;
 }
-.View{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius : 10px!important;
+.theme-entry panel-header{
+ padding: 10px!important;
 }
 
-.theme-entry .form .view{
-     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius : 10px!important;
-}
 /*Edit font for Page Title */ 
 
 .theme-entry h1.page-title{
