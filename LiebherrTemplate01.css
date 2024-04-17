@@ -34,6 +34,6 @@
 }
 
 /*Button (Add row) des Listview*/
-/* .theme-entry .grid table.grid-content-table td.action-row a.action-row {
+.theme-entry .grid table.grid-content-table td.action-row a.action-row {
     display: none;
-} */
+}
