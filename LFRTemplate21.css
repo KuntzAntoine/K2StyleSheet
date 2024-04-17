@@ -15,9 +15,6 @@
  padding: 10px!important;
 }
 
-.theme-entry .panel-header-wrapper .panel-header-controls{
-    display: none;
-}
 
 
 .theme-entry .form .view{
@@ -25,9 +22,7 @@
     border-radius : 10px!important;
 }
 
-.theme-entry .grid-header-wrapper, .theme-entry .panel-header, .theme-entry .panel-header-c, .theme-entry .panel-header-wrapper {
-display : none!important;
-}
+
 /*Edit font for Page Title */ 
 
 .theme-entry h1.page-title{
