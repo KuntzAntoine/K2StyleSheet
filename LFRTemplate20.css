@@ -15,12 +15,17 @@
  padding: 10px!important;
 }
 
-.View{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.theme-entry .panel-header-wrapper .panel-header-controls{
+    display: none;
+}
+
+
+.theme-entry .form .view{
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius : 10px!important;
 }
 
-.theme-entry .form .view{
+.theme-entry .form .view .{
      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius : 10px!important;
 }
