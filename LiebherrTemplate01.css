@@ -25,3 +25,8 @@
 .theme-entry .stack-container .stack div.multi-select-box-list-item label.input-control .input-control-text {
     font-size: 14px;
 }
+
+/*Button (Add row) des Listview*/
+.theme-entry .grid table.grid-content-table td.action-row a.action-row {
+    display: none;
+}
