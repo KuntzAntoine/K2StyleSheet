@@ -11,7 +11,7 @@
 
 /*Edit the View border style*/
 
-.theme-entry:first-of-type panel-header{
+.theme-entry:first-of-type collapse-vertical {
     display : none!important;
 }
 
