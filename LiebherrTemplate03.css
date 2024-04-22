@@ -1,18 +1,9 @@
 /* Style profile for LFR form */
 /* Last edit 05 December 2023*/
 
-.theme-entry .img {
-  border-radius: 10px;
-   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-} 
-.img {
-  border-radius: 10px;
-   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-} 
-.theme-entry .form .img {
-  border-radius: 10px;
-   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-} 
+.formcontrol .innerpanel>*{
+  border-radius : 10px;
+}
 /* Import the Liebherr Title Font familly */
 @font-face {
     font-family: 'Liebherr';
