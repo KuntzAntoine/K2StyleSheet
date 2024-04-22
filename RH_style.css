@@ -1,0 +1,39 @@
+/* Page title */
+.theme-entry h1.page-title{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Page subtitle */
+.theme-entry h2.page-subtitle {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Input label */
+.theme-entry label.input-label{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/*Listview column title*/
+.theme-entry .grid .grid-column-header-cell .grid-column-header-text {
+  font-weight: bold;
+  font-size: 15px;
+  color:black;
+}
+
+/* Label */
+.theme-entry span.SourceCode-Forms-Controls-Web-Label{
+  font-size: 14px;
+}
+
+/*Radio button label  */
+.theme-entry .stack-container .stack div.multi-select-box-list-item label.input-control .input-control-text {
+    font-size: 14px;
+}
+
+/*Button (Add row) des Listview*/
+.theme-entry .grid table.grid-content-table td.action-row a.action-row {
+    display: none;
+}
